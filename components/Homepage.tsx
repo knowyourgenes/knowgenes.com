@@ -53,7 +53,7 @@ export default function Homepage({
                 "radial-gradient(circle at 18% 0%, var(--color-accent-soft), transparent 42%), radial-gradient(circle at 90% 30%, var(--color-paper-2), transparent 55%)",
             }}
           />
-          <div className="relative mx-auto flex w-full max-w-[1350px] flex-col items-center px-4 sm:px-7 pt-16 pb-14 text-center sm:pt-24 sm:pb-20">
+          <div className="relative mx-auto flex w-full max-w-page flex-col items-center px-4 sm:px-7 pt-16 pb-14 text-center sm:pt-24 sm:pb-20">
             <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-accent">
               {homepage.heroEyebrow}
             </p>
@@ -86,7 +86,7 @@ export default function Homepage({
         </section>
 
         {/* ---------- Topics / doors in ---------- */}
-        <section id="topics" className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-16 sm:py-20">
+        <section id="topics" className="mx-auto w-full max-w-page px-4 sm:px-7 py-16 sm:py-20">
           <div className="flex flex-col items-center text-center">
             <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-accent">
               Browse by topic
@@ -127,7 +127,7 @@ export default function Homepage({
 
         {/* ---------- Start here: the 7 most-asked ---------- */}
         <section id="start-here" className="border-y border-rule bg-paper-2/50">
-          <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-16 sm:py-20">
+          <div className="mx-auto w-full max-w-page px-4 sm:px-7 py-16 sm:py-20">
             <div className="flex flex-col items-center text-center">
               <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-accent">
                 Start here
@@ -167,7 +167,7 @@ export default function Homepage({
         </section>
 
         {/* ---------- Glossary preview ---------- */}
-        <section className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-16 sm:py-20">
+        <section className="mx-auto w-full max-w-page px-4 sm:px-7 py-16 sm:py-20">
           <div className="flex flex-col items-center text-center">
             <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-accent">
               The vocabulary
@@ -201,7 +201,7 @@ export default function Homepage({
 
         {/* ---------- Myths preview ---------- */}
         <section className="border-y border-rule bg-paper-2/50">
-          <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-16 sm:py-20">
+          <div className="mx-auto w-full max-w-page px-4 sm:px-7 py-16 sm:py-20">
             <div className="flex flex-col items-center text-center">
               <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-accent">
                 Truth or trash
@@ -244,7 +244,7 @@ export default function Homepage({
         {/* ---------- Editorial standards ---------- */}
         <section
           id="editorial-standards"
-          className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-16 sm:py-20"
+          className="mx-auto w-full max-w-page px-4 sm:px-7 py-16 sm:py-20"
         >
           <div className="mx-auto flex max-w-3xl flex-col items-center rounded-3xl border border-rule bg-paper p-8 text-center sm:p-12">
             <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-accent">
@@ -272,7 +272,7 @@ export default function Homepage({
 
         {/* ---------- Newsletter ---------- */}
         <section id="newsletter" className="border-t border-rule bg-accent">
-          <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-16 sm:py-20">
+          <div className="mx-auto w-full max-w-page px-4 sm:px-7 py-16 sm:py-20">
             <div className="mx-auto flex max-w-2xl flex-col items-center text-center">
               <h2 className="font-serif text-[28px] leading-tight text-paper sm:text-[34px]">
                 {homepage.newsletterTitle}

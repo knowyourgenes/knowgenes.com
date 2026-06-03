@@ -18,7 +18,7 @@ export default function QuestionView({
       <SiteNav />
 
       <main className="flex-1">
-        <article className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 pt-12 pb-16 sm:pt-16">
+        <article className="mx-auto w-full max-w-page px-4 sm:px-7 pt-12 pb-16 sm:pt-16">
           {/* Breadcrumb */}
           <nav className="flex flex-wrap items-center gap-2 text-[12.5px] text-ink-4">
             <Link href="/" className="transition-colors hover:text-accent">
@@ -38,7 +38,7 @@ export default function QuestionView({
           </h1>
 
           {/* The snippet line */}
-          <p className="mt-6 rounded-2xl border-l-4 border-accent bg-accent-soft/60 px-6 py-5 font-serif text-[20px] leading-[1.5] text-ink sm:text-[22px]">
+          <p className="mt-6 rounded-2xl border-l-4 border-accent bg-accent-soft/60 px-6 py-5 font-serif text-[20px] leading-normal text-ink sm:text-[22px]">
             {item.shortAnswer}
           </p>
 

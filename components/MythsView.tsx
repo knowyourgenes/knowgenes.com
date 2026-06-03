@@ -23,7 +23,7 @@ export default function MythsView({
 
       <main className="flex-1">
         <header className="border-b border-rule bg-paper-2/50">
-          <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 pt-12 pb-12 sm:pt-16">
+          <div className="mx-auto w-full max-w-page px-4 sm:px-7 pt-12 pb-12 sm:pt-16">
             <nav className="flex flex-wrap items-center gap-2 text-[12.5px] text-ink-4">
               <Link href="/" className="transition-colors hover:text-accent">
                 Home
@@ -41,7 +41,7 @@ export default function MythsView({
           </div>
         </header>
 
-        <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-12">
+        <div className="mx-auto w-full max-w-page px-4 sm:px-7 py-12">
           <ul className="space-y-5">
             {myths.map((m) => (
               <li
