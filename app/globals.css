@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* ============================================================
+   KNOWGENES.COM · Tailwind v4 theme tokens
+   Genetics, explained from zero. The clearest explainer in the room.
+   All page styling is done via Tailwind utility classes in JSX.
+   This file only registers the palette + fonts as theme variables.
+   ============================================================ */
+@theme {
+  --color-paper: #fbfcfc;
+  --color-paper-2: #f1f6f5;
+  --color-paper-3: #e3eeec;
+  --color-ink: #11201f;
+  --color-ink-2: #2a3937;
+  --color-ink-3: #51605e;
+  --color-ink-4: #8aa09d;
+  --color-rule: rgba(17, 32, 31, 0.1);
+  --color-rule-strong: rgba(17, 32, 31, 0.2);
+  --color-accent: #0d8b80;
+  --color-accent-soft: #d4ebe8;
+  --color-accent-deep: #0a5f58;
+  --color-marker: #f7d774;
+
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-lora), Georgia, serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+
+  --container-page: 1350px;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+/* Anchor offset so in-page jumps clear the sticky header. */
+[id] {
+  scroll-margin-top: 88px;
+}
+
+/* Tailwind v4 drops the implicit pointer cursor on buttons — restore it for
+   every interactive element across the project. */
+button:not(:disabled),
+a[href],
+label[for],
+[role="button"],
+summary,
+::-webkit-search-cancel-button {
+  cursor: pointer;
+}
