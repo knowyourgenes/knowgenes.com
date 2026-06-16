@@ -44,7 +44,7 @@ body {
   scroll-margin-top: 88px;
 }
 
-/* Tailwind v4 drops the implicit pointer cursor on buttons — restore it for
+/* Tailwind v4 drops the implicit pointer cursor on buttons - restore it for
    every interactive element across the project. */
 button:not(:disabled),
 a[href],

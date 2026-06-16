@@ -221,6 +221,38 @@ export const faqItems: FaqItem[] = [
     order: 7,
     lastReviewed: REVIEWED,
   },
+  {
+    slug: "what-is-a-chromosome",
+    question: "What is a chromosome? Genetics from the beginning",
+    shortAnswer:
+      "A chromosome is the package your DNA is wrapped and stored in, so that an enormous amount of genetic instruction can fit neatly and safely inside a tiny cell.",
+    explanation: [
+      "The absolute basics · 6 minute read.",
+      "That is the whole idea in a single line. Now let's build it up gently, with no jargon you have to already know, because this is one of those concepts that feels intimidating and turns out to be simple once you see the picture.",
+      "Start with the problem chromosomes solve.",
+      "Every cell in your body holds a complete copy of your DNA. Stretched out end to end, the DNA in a single one of your cells would be roughly two metres long. That is two metres of impossibly thin thread, packed inside a space far too small to see with the naked eye. That thread cannot just float around loose inside the cell. If it did, it would tangle, snap, and become impossible to copy accurately every time the cell divides.",
+      "So the body solves it the same way you would solve a drawer full of tangled cables. It winds the thread up tightly and organises it into separate, manageable bundles. Each neat, wound-up bundle is a chromosome. The packaging is not a minor detail, it is what makes the whole system workable, because organised DNA can be copied, read, and divided cleanly, while a tangled mess cannot.",
+      "Where chromosomes sit in the bigger picture.",
+      "It really helps to see the whole stack laid out, from smallest to largest, because the terms make far more sense in order: DNA is the long instruction thread itself. A gene is a short section of that thread, a single specific instruction. A chromosome is the wound-up bundle that stores many genes together in one organised package. Your genome is the complete set of all your chromosomes taken together.",
+      "A simple way to hold this in your head: if your DNA were a very long book, then a gene would be a single sentence, a chromosome would be a whole chapter holding many sentences, and the genome would be the entire book, cover to cover. Once that image clicks, most of the vocabulary stops being scary.",
+      "How many chromosomes do you have?",
+      "Most human cells contain 46 chromosomes, arranged as 23 pairs. The pairing is the important part. You inherit one chromosome in each pair from your mother and the matching one from your father. That simple fact is the physical reason you carry a genuine mix of both parents. You are not metaphorically half of each. You literally hold one full set of bundles from your mother and one matching set from your father, side by side, in nearly every cell.",
+      "One of those 23 pairs is the sex chromosomes, usually written as X and Y, which play a major role in biological sex. The other 22 pairs, often called the autosomes, carry the bulk of the instructions for building and running the rest of your body, from your eye colour to your enzymes.",
+      "Why this matters for understanding your genes.",
+      "Almost everything else in genetics sits directly on top of this one idea, which is why it is worth getting solid before anything else. When people talk about a trait being inherited, what they mean is that it travels on these chromosomes from parent to child. When a genetic test reads 'points' or 'markers' in your DNA, those points live at specific locations on specific chromosomes. And when something develops differently from usual, the cause is sometimes a difference at the level of a whole chromosome. In Down syndrome, for example, there is an extra copy of one particular chromosome, so the usual count is different. You do not need to memorise any of those details today. You only need the core picture firmly in place.",
+      "That core picture is this: DNA is the long thread, chromosomes are the organised bundles that keep that thread from turning into an unusable tangle, and you carry two matching sets of those bundles, one inherited from each parent. Hold on to that, and you have the genuine foundation that the entire rest of genetics is built on. Everything else, from inheritance to genetic testing to disease risk, is just detail added on top of this simple frame.",
+      "Beginner FAQ.",
+      "Are chromosomes the same as genes? No. A gene is a short instruction within your DNA. A chromosome is the larger bundle that stores many genes together in one package.",
+      "Do all living things have 46 chromosomes? No. The number varies widely between species, and it says nothing about how complex or advanced a creature is. 46 is simply the human number.",
+      "Can my chromosome number change during life? Your normal chromosome count stays the same. The 46-in-23-pairs setup is established at conception and carried in your cells throughout your life.",
+      "What are the X and Y chromosomes? They are the pair most involved in determining biological sex. Their particular combination is one important part of how biological sex is set.",
+      "Researched against trusted sources · Reviewed before publishing · We say 'we don't know yet' when that is the honest answer · Free, ad-free.",
+    ],
+    category: "basics",
+    starter: false,
+    order: 0,
+    lastReviewed: REVIEWED,
+  },
 ];
 
 export const glossaryTerms: GlossaryTerm[] = [
